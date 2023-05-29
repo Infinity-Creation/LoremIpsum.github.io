@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorem Ipsum Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- SEO optimization -->
+    <meta name="keywords" content="Lorem Ipsum, Filler Text, Generator, Free, Template, Web, JS, Project">
+    <meta name="description"
+        content="Generate all your lorem Ipsum with this simple to use free generator which can generate up to 100 paragraphs of authenthic lorem ipsum.">
+        <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex">
+            <img src="Lorem Ipsum Logo.svg" alt="Logo" width="100px">
+            <h1>Lorem Ipsum Generator</h1>
+        </div>
+        <h3>By Alteca.xyz</h3>
+        <!-- Input Field -->
+        <div class="input-field">
+            <label for="number-of-paragraphs">Number of paragraphs:</label>
+            <input type="number" id="number-of-paragraphs" min="1" max="100" />
+        </div>
+        <!-- Copy Button -->
+        <button id="copy-button" onclick="copy('output')">Copy</button>
+        <!-- Generate Button -->
+        <button id="generate-button">Generate</button>
+        <p id="alert">Copied to Clipboard</p>
+        <!-- Output Lorem Ipsum -->
+        <div id="output"></div>
+        <!-- About Section -->
+        <h2>About</h2>
+        <p>This is a Javascript project which is still in Beta will improve over time, sorry that some things may feel
+            uncomfortable since it wasn't developed professionally, but gets the job done. It can generate about 100
+            paragraphs of Lorem Ipsum at once.</p>
+    </div>
+    <!-- Script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
