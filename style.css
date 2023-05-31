@@ -50,6 +50,16 @@
   img {
     padding-top: 2rem;
   }
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #ff6f6f;
+   
+  }
+  
+  ::selection {
+    color: white;
+    background: #ff6f6f;
+  }
   .input-field {
     margin-bottom: 2rem;
     text-align: left;
