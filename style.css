@@ -46,7 +46,7 @@
   .flex {
     display: flex;
     flex-wrap: wrap;
-    text-align:center;
+    text-align: center;
   }
   img {
     padding-top: 2rem;
@@ -82,7 +82,7 @@
   button {
     background-color: #ff6f6f;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     color: #fff;
     cursor: pointer;
     font-size: 18px;
