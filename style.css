@@ -73,7 +73,7 @@
   
   .input-field input[type="number"] {
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
     padding: 5px;
     width: 50px;
