@@ -43,6 +43,11 @@
     color: #fff;
     text-align: center;
   }
+h3 a {
+     font-size: 2rem;
+    color: blue;
+    text-align: center;
+}
   .flex {
     display: flex;
     flex-wrap: wrap;
